@@ -12,12 +12,17 @@ header {
         padding: 20px;
         color: #fff;
 	margin-bottom: 20px;
+	text-align: center;
 }
 section {
+	display: flex;
+        align-items: center;
         padding: 20px;
-        text-align: left;
-        max-width: 800px;
+        max-width: 60%;
         margin: auto;
+}
+section:nth-child(even) {
+        flex-direction: row-reverse;
 }
 h2 {
         color: #007BFF;
@@ -26,10 +31,12 @@ p {
         line-height: 1.6;
 }
 img {
-        max-width: 100%;
+        max-width: 60%;
         height: auto;
         border-radius: 8px;
         margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 button {
         background-color: #007BFF;
@@ -39,6 +46,7 @@ button {
         cursor: pointer;
 	font-size: 18px;
 	border-radius: 8px;
+	margin-top: 25px;
 }
 
 button:hover {
@@ -48,4 +56,5 @@ footer {
         background-color: #333;
         color: #fff;
         padding: 20px;
+	text-align: center;
 }
