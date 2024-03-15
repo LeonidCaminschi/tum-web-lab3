@@ -1,5 +1,5 @@
 /* add your CSS here */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 1025px) {
 body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -102,9 +102,13 @@ footer {
 .menu-items.active {
     display: block;
 }
+
+#mobileexclusive {
+    display: none; /* Hide the element on desktop */
+}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
     body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -196,5 +200,12 @@ footer {
     }
     .menu-items.active {
         display: block;
+    }
+    #mobileexclusive {
+        display: block;
+        text-align: center;
+        background-color: #ffcc00; /* Yellow background color */
+        padding: 10px;
+        color: #333; /* Text color for better readability */
     }
 }
