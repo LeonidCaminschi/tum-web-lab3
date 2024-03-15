@@ -58,3 +58,17 @@ footer {
         padding: 20px;
 	text-align: center;
 }
+#CTA {
+        margin-left: 20%;
+        text-align: center;
+        padding: 40px 0;
+	background: linear-gradient(to bottom, #ffffff, #007BFF);
+	max-width: 60%;
+}
+#CTA p {
+        font-size: 18px;
+        margin-bottom: 20px;
+}
+#CTA button {
+        font-size: 16px;
+}
