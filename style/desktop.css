@@ -110,4 +110,16 @@ footer {
 #mobileexclusive {
     display: none; /* Hide the element on desktop */
 }
+    #vehicles {
+    	display: block; /* Hide the element on desktop */
+    }
+    #booking {
+	display: block; /* Hide the element on desktop */
+    }
+    #vehicles1 {
+    	display: none; /* Hide the element on desktop */
+    }
+    #booking1 {
+	display: none; /* Hide the element on desktop */
+    }
 }
