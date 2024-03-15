@@ -30,9 +30,11 @@
         color: #007BFF;
 	font-size: 28px;
 	margin-bottom: 10px;
+	text-align: center;
     }
     p {
         line-height: 1.6;
+	text-align: center;
     }
     img {
         max-width: 100%; /* Adjust as needed */
