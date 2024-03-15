@@ -103,4 +103,17 @@
         padding: 10px;
         color: #333; /* Text color for better readability */
     }
+    #vehicles {
+    	display: none; /* Hide the element on desktop */
+    }
+    #booking {
+	display: none; /* Hide the element on desktop */
+    }
+    #vehicles1 {
+    	display: block; /* Hide the element on desktop */
+    }
+    #booking1 {
+	display: block; /* Hide the element on desktop */
+    }
+
 }
