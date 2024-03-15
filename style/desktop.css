@@ -1,0 +1,113 @@
+/* add your CSS here */
+@media only screen and (min-width: 1025px) {
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        text-align: center;
+}
+header {
+	background-color: #007BFF;
+        padding: 25px;
+        color: #fff;
+	margin-bottom: 20px;
+	text-align: center;
+}
+section {
+	display: flex;
+        align-items: center;
+        padding: 20px;
+        max-width: 60%;
+        margin: auto;
+}
+section div {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+section:nth-child(even) {
+        flex-direction: row-reverse;
+}
+h2 {
+        color: #007BFF;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+p {
+        line-height: 1.6;
+}
+img {
+        max-width: 60%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 20px;
+}
+button {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 14px 28px;
+        border: none;
+        cursor: pointer;
+	font-size: 18px;
+	border-radius: 8px;
+	margin-top: 25px;
+}
+
+button:hover {
+        background-color: #0056b3;
+}
+footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+	text-align: center;
+}
+#CTA {
+        margin-left: 20%;
+        text-align: center;
+        padding: 40px 0;
+	background: linear-gradient(to bottom, #ffffff, #007BFF);
+	max-width: 60%;
+}
+#CTA p {
+        font-size: 18px;
+        margin-bottom: 20px;
+}
+#CTA button {
+        font-size: 16px;
+}
+.burger-menu {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    z-index: 999;
+    margin-top: -30px;
+}
+
+/* Style for the burger icon */
+.burger-icon {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+}
+
+/* Style for the menu items */
+.menu-items {
+    display: none;
+    position: fixed; /* Ensure fixed positioning */
+    top: 50px; /* Adjust the top position as needed */
+    left: 20px;
+    z-index: 998; /* Ensure z-index is lower than burger menu */
+}
+
+.menu-items.active {
+    display: block;
+}
+
+#mobileexclusive {
+    display: none; /* Hide the element on desktop */
+}
+}

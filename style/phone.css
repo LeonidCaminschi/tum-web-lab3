@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1024px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        text-align: center;
+    }
+    header {
+        background-color: #007BFF;
+        padding: 25px;
+        color: #fff;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    section {
+        padding: 20px;
+        text-align: left;
+        max-width: 100%; /* Adjust as needed */
+        margin: auto;
+    }
+    section:nth-child(even) {
+        flex-direction: column;
+    }
+    section div{
+	text-align: center;
+    }
+    h2 {
+        color: #007BFF;
+	font-size: 28px;
+	margin-bottom: 10px;
+    }
+    p {
+        line-height: 1.6;
+    }
+    img {
+        max-width: 100%; /* Adjust as needed */
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    button {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 14px 28px;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 8px;
+        margin-top: 25px;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    #CTA {
+        text-align: center;
+        padding: 40px 0;
+        background: linear-gradient(to bottom, #ffffff, #007BFF);
+        max-width: 100%; /* Adjust as needed */
+    }
+    #CTA p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    #CTA button {
+        font-size: 28px;
+    }
+    .burger-menu {
+        position: fixed;
+        top: 5px;
+        left: 5px;
+        z-index: 999;
+        margin-top: -30px;
+    }
+    .burger-icon {
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: black;
+    }
+    .menu-items {
+        display: none;
+        position: fixed;
+        top: 50px;
+        left: 20px;
+        z-index: 998;
+    }
+    .menu-items.active {
+        display: block;
+    }
+    #mobileexclusive {
+        display: block;
+        text-align: center;
+        background-color: #ffcc00; /* Yellow background color */
+        padding: 10px;
+        color: #333; /* Text color for better readability */
+    }
+}
