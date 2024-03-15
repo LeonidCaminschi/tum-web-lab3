@@ -214,6 +214,7 @@ footer {
     left: 0;
     width: 200px; /* Adjust the size of the mascot */
     animation: moveMascot 2s linear forwards; /* Adjust the duration */
+    overflow: hidden;
 }
 
 @keyframes moveMascot {
@@ -223,4 +224,19 @@ footer {
     to {
         left: -100; /* Move to the right */
     }
+}
+
+#mascot-text {
+  position: fixed;
+  bottom: 120px;
+  left: 200px;
+  background-color: #007BFF; /* Semi-transparent background */
+  color: white; /* Text color */
+  padding: 10px; /* Padding for spacing */
+  display: none; /* Initially hidden */
+  transition: opacity 0.2s ease-in-out; /* Smooth fade in/out on hover */
+}
+
+#mascot:hover #mascot-text {
+  display: block; /* Show text on hover */
 }
