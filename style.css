@@ -36,8 +36,6 @@ img {
         height: auto;
         border-radius: 8px;
         margin-bottom: 20px;
-	margin-left: 50px;
-	margin-right: 50px;
 }
 button {
         background-color: #007BFF;
@@ -208,4 +206,37 @@ footer {
         padding: 10px;
         color: #333; /* Text color for better readability */
     }
+}
+
+#mascot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200px; /* Adjust the size of the mascot */
+    animation: moveMascot 2s linear forwards; /* Adjust the duration */
+    overflow: hidden;
+}
+
+@keyframes moveMascot {
+    from {
+        left: 100%; /* Start from the left */
+    }
+    to {
+        left: -100; /* Move to the right */
+    }
+}
+
+#mascot-text {
+  position: fixed;
+  bottom: 120px;
+  left: 200px;
+  background-color: #007BFF; /* Semi-transparent background */
+  color: white; /* Text color */
+  padding: 10px; /* Padding for spacing */
+  display: none; /* Initially hidden */
+  transition: opacity 0.2s ease-in-out; /* Smooth fade in/out on hover */
+}
+
+#mascot:hover #mascot-text {
+  display: block; /* Show text on hover */
 }
